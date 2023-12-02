@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.8.34004.107
+VisualStudioVersion = 17.9.34310.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "schoolbus_mobile", "schoolbus_mobile\schoolbus_mobile.csproj", "{C8424B70-47CA-42F4-8CC7-0D84C29B0EFE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolbus_api", "schoolbus_api\schoolbus_api.csproj", "{65761EE8-4473-446C-9952-F1CCD447FEF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolbus_mobile", "schoolbus_mobile\schoolbus_mobile.csproj", "{634DBDE9-6F43-45F7-BC43-148A30D98382}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,21 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C8424B70-47CA-42F4-8CC7-0D84C29B0EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8424B70-47CA-42F4-8CC7-0D84C29B0EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8424B70-47CA-42F4-8CC7-0D84C29B0EFE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{C8424B70-47CA-42F4-8CC7-0D84C29B0EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8424B70-47CA-42F4-8CC7-0D84C29B0EFE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C8424B70-47CA-42F4-8CC7-0D84C29B0EFE}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{65761EE8-4473-446C-9952-F1CCD447FEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65761EE8-4473-446C-9952-F1CCD447FEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65761EE8-4473-446C-9952-F1CCD447FEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65761EE8-4473-446C-9952-F1CCD447FEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634DBDE9-6F43-45F7-BC43-148A30D98382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634DBDE9-6F43-45F7-BC43-148A30D98382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634DBDE9-6F43-45F7-BC43-148A30D98382}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{634DBDE9-6F43-45F7-BC43-148A30D98382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634DBDE9-6F43-45F7-BC43-148A30D98382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634DBDE9-6F43-45F7-BC43-148A30D98382}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {53B04E70-05D4-42D3-87FC-3F953EB1E53F}
+		SolutionGuid = {A97A2F14-90FD-4558-8D83-017A2718A97D}
 	EndGlobalSection
 EndGlobal

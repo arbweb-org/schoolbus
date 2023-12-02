@@ -1,13 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:schoolbus_mobile"
-             x:Class="schoolbus_mobile.MainPage"
-             BackgroundColor="{DynamicResource PageBackgroundColor}">
+             xmlns:mapsui="clr-namespace:Mapsui.UI.Maui;assembly=Mapsui.UI.Maui"
+             x:Class="schoolbus_mobile.MainPage">
+    <Grid>
+        <mapsui:MapView x:Name="mapView"
+                        IsVisible="true"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand"/>
 
-    <BlazorWebView x:Name="blazorWebView" HostPage="wwwroot/index.html">
-        <BlazorWebView.RootComponents>
-            <RootComponent Selector="#app" ComponentType="{x:Type local:Main}" />
-        </BlazorWebView.RootComponents>
-    </BlazorWebView>
+        <StackLayout Orientation="Vertical"
+                     VerticalOptions="End"
+                     Margin="10">
+            <Button Margin="10" Text="Add Route"
+                VerticalOptions="End"
+                Clicked="v_add_route"></Button>
+
+            <Button Margin="10" Text="Add Pin"
+                VerticalOptions="End"
+                Clicked="v_add_pin"></Button>
+        </StackLayout>
+    </Grid>
 </ContentPage>
